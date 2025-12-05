@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contact — Doodh Wala</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header class="header">
+    <div class="navbar container">
+      <div class="brand">
+        <a href="index.html" class="brand-link">
+          <img src="logo.png" alt="Doodh Wala logo" class="logo">
+          <h1 class="brand-title">Doodh Wala</h1>
+        </a>
+      </div>
+      <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+      <nav class="navlinks" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <!-- <a href="about.html">About</a> -->
+        <a href="product.html">Products</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="section">
+      <div class="container card">
+        <h2 class="section-title">Contact & Delivery</h2>
+        <div class="contact-grid">
+          <div class="contact-box">
+            <h4>Contact Numbers</h4>
+            <div class="contact-info">
+              <p>📞 Abdul Samad: <strong>+91 9494976874</strong></p>
+              <p>📞 Abdul Shahad: <strong>+91 9133954771</strong></p>
+              <p>📍 Service Area: (update if needed)</p>
+              <p style="margin-top:10px;color:var(--brand-red);font-weight:700">Home Delivery: FREE (within service area)</p>
+            </div>
+          </div>
+
+          <div class="contact-box">
+            <h4>Send a Message / Place Order</h4>
+            <form id="order-form" style="display:flex;flex-direction:column;gap:10px">
+              <input name="name" placeholder="Your Name" style="padding:10px;border-radius:8px;border:1px solid #ddd" required>
+              <input name="phone" placeholder="Phone Number" style="padding:10px;border-radius:8px;border:1px solid #ddd" required>
+              <textarea name="message" placeholder="Your message / order details" rows="4" style="padding:10px;border-radius:8px;border:1px solid #ddd" required></textarea>
+              <button type="submit" class="btn btn-primary">Send via WhatsApp</button>
+            </form>
+            <p style="font-size:0.9rem;margin-top:8px;color:#666">Orders go to WhatsApp; we'll reply with price & delivery timing.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div style="font-weight:700">© Doodh Wala — Oxygen Nutrition World</div>
+    </div>
+  </footer>
+
+  <!-- <a class="whatsapp-btn" href="https://wa.me/919494976874" target="_blank" rel="noopener" aria-label="Order on WhatsApp">
+    <svg width="26" height="26" viewBox="0 0 24 24" fill="none"><path d="M20.5 3.5C18.1 1.1 15 0 11.8 0 5.2 0 0 5.2 0 11.6 0 13.9.6 16.2 1.8 18l-1.1 4 4.1-1.1c1.7.9 3.6 1.3 5.4 1.3 6.6 0 11.8-5.2 11.8-11.6 0-3.2-1.2-6.3-3.4-8.5z" fill="#fff"/></svg>
+    <span>Order on WhatsApp</span>
+  </a> -->
+
+  <script src="script.js"></script>
+</body>
+</html>
