@@ -141,27 +141,27 @@ body{background:#fff;color:var(--dark);line-height:1.6;-webkit-font-smoothing:an
   left:-100%;
   width:100%;
   height:100%;
-  background:rgba(255,255,255,0.2);
+  background:rgba(33, 243, 10, 0.2);
   transition:left 0.4s ease;
 }
 .btn:hover::before{left:100%}
 .btn-primary{
   background:linear-gradient(135deg, var(--brand-red) 0%, #a01c1c 100%);
   color:#fff;
-  box-shadow:0 6px 20px rgba(198,40,40,0.3);
+  box-shadow:0 6px 20px rgba(64, 234, 18, 0.3);
 }
 .btn-primary:hover{
   transform:translateY(-2px);
-  box-shadow:0 10px 30px rgba(198,40,40,0.4);
+  box-shadow:0 10px 30px rgba(44, 234, 18, 0.4);
 }
 .btn-ghost{
-  background:transparent;
-  border:2px solid rgba(255,255,255,0.3);
+  background:linear-gradient(135deg, var(--brand-green) 0%, #21db37ff 100%);
+  border:2px solid rgba(71, 243, 8, 0.3);
   color:#fff;
   backdrop-filter:blur(10px);
 }
 .btn-ghost:hover{
-  background:rgba(255,255,255,0.15);
+  background:rgba(54, 240, 8, 0.15);
   border-color:#fff;
   transform:translateY(-2px);
 }
